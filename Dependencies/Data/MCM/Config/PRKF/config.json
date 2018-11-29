@@ -1,0 +1,62 @@
+{
+  "modName": "PRKF",
+  "displayName": "LevelUpMenuEx",
+  "minMcmVersion": 1,
+  "content": [
+    {
+      "text": "<p align='center'><font size='30'>LevelUpMenuEx</font></p>",
+      "html": true,
+      "type": "text"
+    },
+    { "type": "spacer" },
+    {
+      "text": "$PRKF_MCM_ModSettings",
+      "type": "section"
+    },
+    {
+      "id": "bPlayPerkSound:Main",
+      "text": "$PRKF_MCM_PlayPerkSound",
+      "type": "switcher",
+      "help": "$PRKF_MCM_PlayPerkSound_help",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      },
+      "groupControl": 1
+    },
+    {
+      "id": "bPlayPerkSoundLoop:Main",
+      "text": "$PRKF_MCM_LoopPerkSound",
+      "type": "switcher",
+      "help": "$PRKF_MCM_LoopPerkSound_help",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      },
+      "groupCondition": 1
+    },
+    { "type": "spacer" },
+    {
+      "text": "$PRKF_MCM_DefaultFilters",
+      "type": "section"
+    },
+    {
+      "id": "bIneligible:Filters",
+      "text": "$PRKF_MCM_ShowIneligiblePerks",
+      "type": "switcher",
+      "help": "$PRKF_MCM_ShowIneligiblePerks_help",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      }
+    },
+    { "type": "spacer" },
+    {
+      "text": "$PRKF_MCM_Hotkeys",
+      "type": "section"
+    },
+    {
+      "id": "levelupmenuex_open",
+      "text": "$PRKF_MCM_OpenLevelUpMenuHotkey",
+      "type": "hotkey",
+      "help": "$PRKF_MCM_OpenLevelUpMenuHotkey_help"
+    }
+  ]
+}

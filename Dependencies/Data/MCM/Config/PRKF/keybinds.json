@@ -1,0 +1,14 @@
+{
+  "modName": "PRKF",
+  "keybinds": [
+    {
+      "id": "levelupmenuex_open",
+      "desc": "Open LevelUpMenu",
+      "action": {
+        "type": "CallGlobalFunction",
+        "script": "PRKF:PRKF",
+        "function": "OpenMenu"
+      }
+    }
+  ]
+}
