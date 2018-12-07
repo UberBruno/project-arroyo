@@ -7,9 +7,8 @@ For now there are no limits on who can contribute as long as you are officially 
 
 Anything in Dependencies/Data should be installed to your FO4's Data folder like you would any other mod. projectarroyo.esm uses these mods as parent masters so you WILL need them installed if you want to work on the mod in CK. On release we will eventually bundle the dependencies with the actual mod so players only have one download, but for now we keep it seperate in case we need to make changes or update a mod to a newer version.
 
+Please do not include xdi.esm in your esps that is not neccesary
+
 **How to commit to this repository using esps**
 
-This system is changing stand by
-
-
-
+Download latest ProjectArroyo.esm, and make an esp with that as a master. Then when you're done just send Hiram the esp via pull request or direct message (hjk321#1337) and he will merge it and commit to github. Simple as that.
